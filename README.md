@@ -22,6 +22,7 @@ As the Monteina Tyre Shop evolves, expect new features, improvements, and additi
 
 ## Tech Stack 💻
 
+- Visual Studio Code
 - HTML
 - CSS
 

@@ -129,9 +129,9 @@
   transform: translateY(-20px);
 }
 
-input-box input [type="submit"] {
+.input-box input [type="submit"] {
   width: 100px;
-  background-color: rgb(48, 48, 48);;
+  background-color: rgb(48, 48, 48);
   color: #f0d5a9;
   border: none;
   cursor: pointer;

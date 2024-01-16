@@ -15,10 +15,6 @@
   margin-left: 5px;
 }
 
-.services h1 {
-  margin-left: 100px;
-}
-
 .services-box {
   display: grid;
   grid-template-columns: 1fr 1fr;

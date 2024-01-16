@@ -16,6 +16,8 @@ This project focuses on creating an engaging website for a tyre shop, providing 
 
 - **Responsive Design:** Enjoy a responsive design that adapts to different screen sizes, providing an optimal viewing experience.
 
+- **Responsive Design:** Added legal documents that define the rules for using a service and how user data is handled, respectively.
+
 ## Under Construction 🚧
 
 As the Monteina Tyre Shop evolves, expect new features, improvements, and additional content to enhance the user experience.

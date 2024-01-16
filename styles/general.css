@@ -20,9 +20,9 @@ button {
   width: 100px;
   height: 28px;
   font-size: 12px;
-  border: 1px solid rgb(48, 48, 48);
+  border: 1px solid #303030;
   border-radius: 16px;
-  background-color: rgb(48, 48, 48);
+  background-color: #303030; 
   color: white;
   margin-top: 10px;
   margin-left: 40px;
@@ -31,28 +31,24 @@ button {
 
 /* Responsive Design */
 @media (max-width: 600px) {
-  /* Adjust styles for smaller screens */
   button {
     margin-left: 10px;
   }
 }
 
 @media (min-width: 601px) and (max-width: 768px) {
-  /* Adjust styles for small to medium-sized screens */
   button {
     margin-left: 20px;
   }
 }
 
 @media (min-width: 769px) and (max-width: 992px) {
-  /* Adjust styles for medium-sized screens */
   button {
     margin-left: 30px;
   }
 }
 
 @media (min-width: 993px) and (max-width: 1200px) {
-  /* Adjust styles for large screens */
   button {
     margin-left: 40px;
   }

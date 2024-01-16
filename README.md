@@ -16,7 +16,11 @@ This project focuses on creating an engaging website for a tyre shop, providing 
 
 - **Responsive Design:** Enjoy a responsive design that adapts to different screen sizes, providing an optimal viewing experience.
 
-- **Responsive Design:** Added legal documents that define the rules for using a service and how user data is handled, respectively.
+- **Terms & Service:** Added legal documents that define the rules for using a service and how user data is handled, respectively.
+
+- **Interactive Header:** An interactive header that moves with the content facilitates smooth navigation, allowing users to seamlessly explore various pages, type into the search bar, or employ voice search for enhanced accessibility.
+
+-  **Interactive Icons:** Interactive icons in the contacts menu, try pressing on them and look what happens!
 
 ## Under Construction 🚧
 

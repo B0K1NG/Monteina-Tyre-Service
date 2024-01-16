@@ -1,0 +1,123 @@
+/* Tips Styling section */
+/*Tyre care content*/
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; 
+  justify-content: space-between;
+  background-color: #1a1a1a;
+  color: #f0d5a9;
+}
+
+/* Grid item styling */
+.grid-item {
+  text-align: center;
+}
+
+.grid-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+}
+
+img {
+  max-width: 50%;
+}
+
+.grid-container h3,
+.grid-container p,
+.grid-container button {
+  color: #f0d5a9;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.grid-container button {
+  cursor: pointer;
+  transition: background-color 0.15s;
+}
+
+.grid-container button:hover {
+  background-color: #838385;
+}
+
+.grid-container h3 {
+  font-size: 15px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.grid-container p {
+  font-size: 10px;
+}
+
+/* Tips page */
+.tyre-pressure {
+  text-align: left;
+  margin-bottom: 50px; 
+}
+
+.content-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: auto;
+  margin: 0 auto;
+}
+
+.text-content {
+  margin-left: 15%;
+  width: 45%;
+}
+
+.image-content {
+  width: 40%; 
+  overflow: hidden; 
+  margin: 50px 0;
+  margin-left: 20px;
+}
+
+.image-content img {
+  width: 100%; 
+  height: auto; 
+}
+
+h1, h2 {
+  font-size: 25px;
+  text-align: center;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+h1 {
+  margin-right: 15%;
+  width: 1000px;
+}
+
+h2 {
+  margin-top: 15px;
+  width: 1000px;
+}
+
+ol {
+  padding-left: 0;
+  margin-left: 0;
+  list-style: none;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+p {
+  margin-bottom: 15px;
+}
+
+/* Added section divider */
+.section-divider {
+  border-top: 1px solid #f0d5a9;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}

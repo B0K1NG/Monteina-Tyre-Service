@@ -1,0 +1,76 @@
+/* Services Styling Section */
+.services {
+  background-color: #1a1a1a;
+  color: #f0d5a9;
+  padding: 20px;
+}
+
+.services h1,
+.services h2 {
+  font-size: 50px;
+  font-weight: bold;
+  height: 50px;
+  text-align: center;
+  color: #e1e2e5;
+  margin-left: 5px;
+}
+
+.services h1 {
+  margin-left: 100px;
+}
+
+.services-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 20px;
+  background-color: #1a1a1a;
+  padding: 20px;
+}
+
+.services-left,
+.services-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.services-multiple-options,
+.services-and-install,
+.services-and-repair {
+  padding: 20px;
+  text-align: center;
+}
+
+.services-multiple-options img,
+.services-and-install img,
+.services-and-repair img {
+  max-width: 50%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.services-multiple-options button,
+.services-and-install button,
+.services-and-repair button {
+  flex: 1;
+  width: 100px;
+  height: 28px;
+  font-size: 12px;
+  border: 1px solid rgb(48, 48, 48);
+  border-radius: 16px;
+  background-color: rgb(48, 48, 48);
+  color: #f0d5a9;
+  margin-top: 10px;
+  margin-left: 0;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: background-color 0.15s;
+}
+
+.services-multiple-options button:hover,
+.services-and-install button:hover,
+.services-and-repair button:hover {
+  background-color: #838385;;
+}
+
+

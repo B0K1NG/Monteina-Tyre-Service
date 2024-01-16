@@ -1,0 +1,45 @@
+/* Customers Section */
+.customers {
+  background-color: #1a1a1a;
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.customers-box {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.customers-box img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+  margin-left: 8%;
+}
+
+.customers-box h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #e1e2e5;
+}
+
+.customers-box button {
+  width: 30%;
+  padding: 8px;
+  margin-right: 8%;
+  font-size: 16px; 
+  background-color: rgb(48, 48, 48);
+  color: #f0d5a9;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: background-color 0.15s;
+}
+
+.customers-box button:hover {
+  background-color: #838385;;
+}

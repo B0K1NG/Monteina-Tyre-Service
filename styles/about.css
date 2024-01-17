@@ -118,8 +118,32 @@
 
 .about-page h2 {
   color: #e1e2e5;
+  text-align: center;
 }
 
 .about-page ol{
 text-align: center;
+}
+
+/* Reviews Section */
+.reviews-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.review {
+  text-align: center;
+}
+.review p,
+.review h3,
+.review h4{
+  text-align: center;
+  width: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.customers-reviews {
+ text-align: center;
 }

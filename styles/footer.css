@@ -48,6 +48,14 @@ h4 {
   margin-right: 100px;
 }
 
+.footer-links {
+  margin-top: -35px;
+}
+
+.footer-links h4{
+  margin-left: 65px;
+}
+
 .footer-links a {
   text-decoration: none;
   padding-left: 25%;

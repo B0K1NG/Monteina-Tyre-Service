@@ -27,6 +27,8 @@
 
 .about p {
   color: #f0d5a9;
+  width: 400px;
+  text-align: center;
 }
 
 .about-section {
@@ -34,43 +36,90 @@
   padding-top: 100px;
   width: 1000px;
   max-width: 100%;
+  margin-top: -50px;
 }
 
 .about-section-picture img {
-  max-width: 80%; 
+  max-width: 100%; 
   height: auto;
-  margin-left: 150px;
+  margin-left: -50px;
+  margin-top: -50px;
 }
 
 .about-section h1 {
   margin-left: 140px;
 }
 
+.about-section h2 {
+  margin-left: -280px;
+}
+
 /* Responsive Two-column layout for services */
 .service {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  flex-direction: row;
+  justify-content: space-between;
   align-items: center;
-}
-
-.service img {
-  max-width: 50%;
-  height: auto;
-  margin-right: 20px;
   margin-bottom: 20px;
 }
 
+.service img {
+  max-width: 600px;
+  height: auto;
+  margin-right: 40px; 
+  margin-left: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.service-text {
+  flex: 1; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .service h3 {
-  color: #333;
+  color: #e1e2e5;;
   margin-bottom: 10px;
 }
 
 .service p {
-  color: #666;
+  color: #f0d5a9;
   max-width: 400px;
+  text-align: center;
+  margin: 0 auto;
 }
 
 .about-section button {
   margin-left: 165px;
+}
+
+.first-paragraph {
+  width: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: 400px;
+  margin-bottom: 50px;
+}
+
+
+.about-list {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.about-page {
+  margin-top: 110px;
+}
+
+.about-page h2 {
+  color: #e1e2e5;
+}
+
+.about-page ol{
+text-align: center;
 }

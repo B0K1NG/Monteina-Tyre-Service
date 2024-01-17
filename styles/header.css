@@ -5,7 +5,8 @@
 
 .header {
     color: #f0d5a9;
-    position: relative;
+    background-color: #1a1a1a;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;

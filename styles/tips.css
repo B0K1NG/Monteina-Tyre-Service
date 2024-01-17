@@ -18,10 +18,12 @@
   align-items: center;
   justify-content: space-around;
   text-align: center;
+  height: 200px;
 }
 
 img {
-  max-width: 50%;
+  max-width: 250px;
+  height: 130px;
 }
 
 .grid-container h3,
@@ -53,52 +55,47 @@ img {
   font-size: 10px;
 }
 
-/* Tips page */
 .tyre-pressure {
-  text-align: left;
-  margin-bottom: 50px; 
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 110px;
 }
 
 .content-wrapper {
   display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
+  flex-direction: column;
+  align-items: center;
   max-width: auto;
   margin: 0 auto;
 }
 
 .text-content {
-  margin-left: 15%;
-  width: 45%;
+  width: 80%;
+  margin-bottom: 20px;
 }
 
 .image-content {
-  width: 40%; 
-  overflow: hidden; 
-  margin: 50px 0;
-  margin-left: 20px;
+  width: 80%;
+  overflow: hidden;
+  margin-bottom: 20px;
 }
 
 .image-content img {
-  width: 100%; 
-  height: auto; 
+  max-width: 700px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
 }
 
 .tyre-pressure h1, h2 {
   font-size: 25px;
-  text-align: center;
   margin-bottom: 15px;
   font-weight: bold;
+  color: #e1e2e5;
 }
 
-.tyre-pressure h1 {
-  margin-right: 15%;
-  width: 1000px;
-}
-
-.tyre-pressure h2 {
-  margin-top: 15px;
-  width: 1000px;
+.tyre-pressure h1, .tyre-pressure h2 {
+  width: 100%; 
 }
 
 .tyre-pressure ol {
@@ -115,7 +112,7 @@ img {
   margin-bottom: 15px;
 }
 
-/* Added section divider */
+/* Section divider */
 .section-divider {
   border-top: 1px solid #f0d5a9;
   margin-top: 20px;

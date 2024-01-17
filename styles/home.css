@@ -2,12 +2,15 @@
   position: relative;
   background-size: cover;
   background-position: center;
-  background-image: url(../images/sample.jpg);
+  background-image: url(../images/background.jpg);
   background-repeat: no-repeat;
   margin: 0;
   padding: 0;
   color: #f0d5a9; 
   overflow: auto;
+  width: fixed;
+  height: 450px;
+  margin-top: 80px;
 }
 
 .background-wrapper {
@@ -17,7 +20,6 @@
 
 .home-content {
   max-width: 100%;
-  margin-bottom: 110px;
   color: white;
 }
 
